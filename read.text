@@ -1,0 +1,95 @@
+<Start shopify AppDevelopment using core php>
+	ngrok command ./ngrok http 80
+Start Date:14/06/2019
+Target : one week 
+Laravel learning toturial:https://www.tutorialspoint.com/laravel/index.htm
+Learning link:https://weeklyhow.com/how-to-build-shopify-apps-with-php/
+Learning link:https://eastsideco.com/blog/developing-shoth-laravel-php
+shopify api:https://github.com/Shopify/shopify_api
+app name: startup
+local project name:startup ; url:http://localhost/startup/
+API Key:9f13b92c7151dad0fbb5fb85cde4567a
+API secret key:7934f7ff54bb0713b53ac8d17501a566
+Password:24f597f4263f6ba64508599b1c0d6565
+Example Url:https://9f13b92c7151dad0fbb5fb85cde4567a:24f597f4263f6ba64508599b1c0d6565@hauzkhas.myshopify.com/admin/api/2019-04/orders.json
+
+Private applications authenticate with Shopify through basic HTTP authentication, using the URL format https://{apikey}:{password}@{hostname}/admin/api/{version}/{resource}.json
+</Start shopify App Development using core php>	
+
+Product json Data:
+{
+	"product":{
+		"id":2530656223296,
+		"title":"New startup title",
+	   "body_html":"\u003cp\u003eOur new dog wooden house is perfect for your lovely pets, especially recommended for puppies. It features a balcony hanging out and a raised bottom to keep them dry from the rain. Removable roof and bottom is convenient for cleaning. The deluxe construction with side ladder provides a comfortable and superior house for your pets like family. Welcome! High quality with competitive price can be realized here!\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cbr\u003e\n\u003cp\u003eNote:\u003c\/p\u003e\n\u003cp\u003e1.Simple Assembly is required according to the instruction.\u003c\/p\u003e\n\u003cp\u003e2. It is designed for small dogs. Please refer to the size attached below before purchasing\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eFeature:\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eBalcony with a side ladder for convenient lounging\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eDurable and sturdy wooden construction\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eA raised bottom for keeping the panels dry from the rain\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eRemovable roof and bottom for easy cleaning\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003ePerfect for small pets, such as puppies\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eMaterial: Fir Wood\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eOverall Dimension: 29'' x 21'' x 26'' (L x W x H),\u0026lt;br\u0026gt;\u003cbr\u003e\u003cbr\u003eInner House Size: 17.3'' x 17.3'' x 15'' (L x W x H)\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eDoor Dimension: 8.4'' x 12.1'' (L x Max H),\u003cbr\u003e\u003cbr\u003eSun Deck Size: 20'' x 18'' (L x W)\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eDeck Fence Height: 5.7''\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003eLadder Width: 8.3''\u0026lt;br\u0026gt;\u003c\/p\u003e\n\u003cp\u003ePackage Includes: 1 x Dog House, 1 x Instruction\u0026lt;br\u0026gt;\u003c\/p\u003e",
+	    "vendor":"Hauzkhas",
+	    "product_type":"",
+	    "created_at":"2019-01-21T10:57:01-05:00",
+	    "handle":"costway-wooden-puppy-pet-dog-house-wood-room-in-outdoor-raised-roof-balcony-bed-shelter",
+	    "updated_at":"2019-06-21T17:21:23-04:00",
+	    "published_at":"2019-01-21T10:57:00-05:00",
+	    "template_suffix":null,
+	    "tags":"new, watch","published_scope":"web",
+	    "admin_graphql_api_id":"gid:\/\/shopify\/Product\/2530656223296",
+	    "variants":
+	        [
+	        	{
+	        	"id":23639735238720,
+	            "product_id":2530656223296,
+	            "title":"Default Title",
+	            "price":"130.18",
+	            "sku":"PS6091",
+	            "position":1,
+	            "inventory_policy":"deny",
+	            "compare_at_price":"130.18",
+	            "fulfillment_service":"oberlo",
+	            "inventory_management":"shopify",
+	            "option1":"Default Title",
+	            "option2":null,
+	            "option3":null,
+	            "created_at":"2019-01-21T10:57:01-05:00",
+	            "updated_at":"2019-04-03T16:21:41-04:00",
+	            "taxable":false,
+	            "barcode":"",
+	            "grams":0,
+	            "image_id":8320495878208,
+	            "weight":0.0,
+	            "weight_unit":"kg",
+	            "inventory_item_id":24225708802112,
+	            "inventory_quantity":4,
+	            "old_inventory_quantity":4,
+	            "requires_shipping":true,
+	            "admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/23639735238720"
+	        }],
+	        "options":
+	        [{
+	            "id":3456154173504,
+	            "product_id":2530656223296,
+	            "name":"Title",
+	            "position":1,
+	            "values":["Default Title"]}],
+	            "images":[{"id":8320495878208,"product_id":2530656223296,"position":1,"created_at":"2019-01-21T10:57:03-05:00","updated_at":"2019-01-21T10:57:03-05:00","alt":null,"width":1200,"height":1200,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0224\/8294\/4064\/products\/product-image-795239938.jpg?v=1548086223",
+	            "variant_ids":[23639735238720],
+	            "admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/8320495878208"
+	        }],
+	        "image":
+	               {
+	               	 "id":8320495878208,
+	               	 "product_id":2530656223296,
+	               	 "position":1,
+	               	 "created_at":"2019-01-21T10:57:03-05:00",
+	                 "updated_at":"2019-01-21T10:57:03-05:00",
+	                 "alt":null,
+	                 "width":1200,
+	                 "height":1200,
+	                 "src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0224\/8294\/4064\/products\/product-image-795239938.jpg?v=1548086223",
+	                 "variant_ids":[23639735238720],
+	                 "admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/8320495878208"
+	                }
+	            }
+	        }
+
+
+
+
+	       
